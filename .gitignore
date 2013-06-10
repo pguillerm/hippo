@@ -1,0 +1,20 @@
+/.project
+target
+.settings
+.ruleset
+.classpath
+.pmd
+.project
+.checkstyle
+.log
+*.class
+bin
+# Package Files #
+*.jar
+*.war
+*.ear
+gen
+.directory
+.*swp
+*~
+.idea*	

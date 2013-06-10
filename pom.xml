@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>org.palo.it.hippo</groupId>
+    <artifactId>hippo-parent</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Palo IT Hippo CMS POC</name>
+    <url>http://www.palo-it.com</url>
+    <description></description>
+
+
+  <!--
+    ============================================================================
+    = MAIN PROJECT PROPERTIES
+    ============================================================================
+  -->
+    <properties>
+        <project.version>0.1-SNAPSHOT</project.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+  <!--
+    ============================================================================
+    = MAIN PROJECT MODULES
+    ============================================================================
+  -->
+    <modules>
+<!--         <module>hippo-webapp</module> -->
+    </modules>
+
+
+    
+  <!--
+    ============================================================================
+    = ORGANIZATION INFORMATIONS
+    ============================================================================
+  -->
+    <organization>
+        <name>Palo-IT</name>
+        <url>https://github.com/pguillerm/hippo</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>pguillerm</id>
+            <name>Patrick Guillerm</name>
+            <email>pguillerm@palo-it.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>https://github.com/pguillerm/hippo</connection>
+        <url>https://github.com/pguillerm/hippo</url>
+    </scm>
+
+    
+</project>
